@@ -54,11 +54,11 @@
         <div class="container">
             <h3>Sign Up</h3>
             <form action="/signup" method="POST">
-                <label for="id">ID : </label><br>
-                <input type="text" id="id" name="id" required>
+                <label for="id1">ID : </label><br>
+                <input type="text" id="id1" name="id" required>
                 
-                <label for="password">Enter a password:</label>
-                <input type="password" id="password" name="password" required>
+                <label for="password1">Enter a password:</label>
+                <input type="password" id="password1" name="password" required>
                 
                 <button type="submit">Submit</button>
             </form>
@@ -67,6 +67,7 @@
     
    
         <script>
+            console.log(localStorage);
             function tempAlert(msg,duration)
             {
                 var el = document.getElementById('alert');
